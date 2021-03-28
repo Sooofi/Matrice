@@ -92,7 +92,7 @@ public class Matrice
                
                 for(int j=0;j<dimc;j++)
                 {
-                  cor_col=cor_rig.nextc;
+               cor_col=inizio.nextc;
                   System.out.println(" "+cor_col.cont);
                 }
                  cor_rig=cor_rig.nextr;
