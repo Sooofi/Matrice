@@ -1,0 +1,14 @@
+//classe Righe
+
+public class Righe
+{
+   int cont;
+   Righe nextr;
+   Colonne nextc;
+   Righe(int n)
+   {
+     cont=n;
+     nextc=null;
+     nextr=null;
+   } 
+}
