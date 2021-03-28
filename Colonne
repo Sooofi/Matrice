@@ -1,0 +1,14 @@
+//Classe colonne
+
+
+public class Colonne
+{
+    int cont;
+     Colonne nextc;
+   Colonne(int n)
+   {
+     cont=n;
+     nextc=null;
+   }
+   
+}
